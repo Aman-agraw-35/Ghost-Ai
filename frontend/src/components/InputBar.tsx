@@ -53,7 +53,7 @@ const InputBar: React.FC<Props> = ({
     placeholder="Type a message here..."
     value={currentMessage}
     onChange={handleChange}
-    className="flex-grow min-w-0 w-40 sm:w-auto py-2 bg-transparent focus:outline-none text-gray-700 px-2 sm:px-4"
+    className="flex-grow min-w-0 w-40 sm:w-auto py-2 bg-transparent placeholder:text-sm focus:outline-none text-gray-700 px-2 sm:px-4"
   />
 
   <button
