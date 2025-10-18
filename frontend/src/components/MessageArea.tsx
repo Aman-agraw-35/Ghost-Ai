@@ -140,8 +140,8 @@ const MessageArea: React.FC<{ messages?: Message[]; isLoading?: boolean; onCreat
           <div key={message.id} className={`flex ${message.isUser ? "justify-end" : "justify-start"} mb-5`}>
             <div className="flex flex-col max-w-lg">
               {!message.isUser && message.searchInfo && <SearchStages searchInfo={message.searchInfo} />}
-              <div className={`rounded-2xl py-3 px-5 shadow-md transition-all duration-300 ${message.isUser ? "bg-green-500 text-white rounded-br-none" : "bg-white/80 backdrop-blur-sm border border-gray-200 text-gray-800 rounded-bl-none"}`}>
-                {message.isLoading ? <PremiumTypingAnimation /> : message.content ? <div className="whitespace-pre-wrap break-words">{message.content}</div> : <span className="text-gray-400 text-xs italic">Waiting for response...</span>}
+              <div className={`rounded-2xl py-3 px-5  shadow-md transition-all duration-300 ${message.isUser ? "bg-green-500 text-white rounded-br-none" : "bg-white/80 backdrop-blur-sm border border-gray-200 text-gray-800 rounded-bl-none"}`}>
+                {message.isLoading ? <PremiumTypingAnimation /> : message.content ? <div className="whitespace-pre-wrap  sm:text-lg text-sm break-words">{message.content}</div> : <span className="text-gray-400 text-xs italic">Waiting for response...</span>}
               </div>
             </div>
           </div>

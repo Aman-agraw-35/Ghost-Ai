@@ -305,7 +305,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="flex min-h-screen bg-gradient-to-br from-[#F8F7FB] to-[#ECEAF5]">
-      <div className="xl:w-[20%] lg:w-[25%] w-[15%] h-[90vh] rounded-r-2xl border-r my-6 border-gray-200 bg-white/70 shadow-md">
+      <div className="xl:w-[20%] flex justify-center items-start lg:w-[25%] md:w-[8%] sm:w-[10%] w-[15%] h-[90vh] rounded-r-2xl border-r my-6 border-gray-200 bg-white/70 shadow-md">
         <Sidebar
           conversations={conversations}
           activeThreadId={activeThreadId}
@@ -316,7 +316,7 @@ const Home: React.FC = () => {
         />
       </div>
 
-      <div className="xl:w-[80%] lg:w-[75%] sm:w-[90%] w-[95%] flex flex-col h-[90vh] m-6 rounded-2xl bg-white/80 backdrop-blur-md border border-gray-200/70 shadow-xl overflow-hidden">
+      <div className="xl:w-[80%] lg:w-[75%]  md:w-[92%] sm:w-[88%] w-[80%] flex flex-col h-[90vh] sm:m-6 my-6 mx-3 rounded-2xl bg-white/80 backdrop-blur-md border border-gray-200/70 shadow-xl overflow-hidden">
         <Header />
         <MessageArea
           messages={currentMessages}
