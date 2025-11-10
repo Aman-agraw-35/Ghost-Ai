@@ -50,7 +50,7 @@ type SSEData =
   | SSSearchError
   | SSEEnd;
 
-const API_BASE = "https://ghost-ai-chatbot.onrender.com";
+const API_BASE = "https://my-fastapi-app-bqzp.onrender.com";
 
 const Home: React.FC = () => {
   const [checkpointId, setCheckpointId] = useState<string | null>(null);
