@@ -85,8 +85,6 @@ Gemini + LangChain + LangGraph
 v
 Tavily
 
-yaml
-Copy code
 
 ---
 
@@ -98,4 +96,5 @@ Final-year B.Tech, IIIT Bhopal
 📧 Email: aman.agraw.35@gmail.com
 
 ⭐ If you find this project useful, consider giving it a star!
+
 
