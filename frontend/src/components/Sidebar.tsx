@@ -28,7 +28,7 @@ interface SidebarProps {
   isLoading?: boolean;
 }
 
-const API_BASE = "https://ghost-ai-chatbot.onrender.com";
+const API_BASE = "https://ghost-ai-1-zkfy.onrender.com";
 
 const SkeletonItem: React.FC<{ isUser?: boolean }> = () => {
   return (
@@ -211,5 +211,6 @@ const Sidebar: React.FC<SidebarProps> = ({
 };
 
 export default Sidebar;
+
 
 
